@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses">
+  <DataContextMoniker Name="/DataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4340a8c7-7af9-40f9-9ba1-27e18f94ef87" absoluteBounds="0.5, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClassesDataContext/Фильмы" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ece92b03-923b-4ed0-bb30-0cfcf58c17eb" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7c6b89a-3d8f-4cbc-8d81-0a833b130da6" absoluteBounds="0.5, 2.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClassesDataContext/Клиенты" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6971ec8-30cf-453b-8ca7-78f1e871d623" absoluteBounds="0.51500000000000012, 3.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6997f728-6cc8-468a-b8a9-ffea32bd82fa" absoluteBounds="4.875, 2.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClassesDataContext/ВыданоВПрокат" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3a6a0a2-23bd-46b5-b317-c280890ca7b9" absoluteBounds="4.89, 2.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 3.35179768880208); (4.875 : 3.35179768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesDataContext/Клиенты/Клиенты_ВыданоВПрокат" />
+      <nodes>
+        <classShapeMoniker Id="d7c6b89a-3d8f-4cbc-8d81-0a833b130da6" />
+        <classShapeMoniker Id="6997f728-6cc8-468a-b8a9-ffea32bd82fa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 1.3749995); (5.875 : 1.3749995); (5.875 : 2.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesDataContext/Фильмы/Фильмы_ВыданоВПрокат" />
+      <nodes>
+        <classShapeMoniker Id="4340a8c7-7af9-40f9-9ba1-27e18f94ef87" />
+        <classShapeMoniker Id="6997f728-6cc8-468a-b8a9-ffea32bd82fa" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

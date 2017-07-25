@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Kinoprokat" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Kinoprokat.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="кинопрокат.Properties.Settings" SettingsPropertyName="KinoprokatConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Фильмы" Member="Фильмы">
+    <Type Name="Фильмы">
+      <Column Name="ID_Фильма" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Название" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="Режиссер" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="Рейтинг" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="Наличие" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Фильмы_ВыданоВПрокат" Member="ВыданоВПрокат" ThisKey="ID_Фильма" OtherKey="ID_Фильма" Type="ВыданоВПрокат" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Клиенты" Member="Клиенты">
+    <Type Name="Клиенты">
+      <Column Name="ID_Клиента" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Имя" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="Фамилия" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="Телефон" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Association Name="Клиенты_ВыданоВПрокат" Member="ВыданоВПрокат" ThisKey="ID_Клиента" OtherKey="ID_Клиента" Type="ВыданоВПрокат" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ВыданоВПрокат" Member="ВыданоВПрокат">
+    <Type Name="ВыданоВПрокат">
+      <Column Name="Код_Выдачи" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_Фильма" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_Клиента" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Цена" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="Клиенты_ВыданоВПрокат" Member="Клиенты" ThisKey="ID_Клиента" OtherKey="ID_Клиента" Type="Клиенты" IsForeignKey="true" />
+      <Association Name="Фильмы_ВыданоВПрокат" Member="Фильмы" ThisKey="ID_Фильма" OtherKey="ID_Фильма" Type="Фильмы" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

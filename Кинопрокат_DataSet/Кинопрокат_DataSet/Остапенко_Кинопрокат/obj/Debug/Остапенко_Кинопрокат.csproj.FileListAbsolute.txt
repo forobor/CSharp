@@ -1,0 +1,26 @@
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\bin\Debug\Остапенко_Кинопрокат.exe.config
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\bin\Debug\Остапенко_Кинопрокат.exe
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\bin\Debug\Остапенко_Кинопрокат.pdb
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.csprojResolveAssemblyReference.cache
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.Form1.resources
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.Properties.Resources.resources
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.csproj.GenerateResource.Cache
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.exe
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.pdb
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.Customs.resources
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.GiveFilm.resources
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.Issues.resources
+D:\С# projects\Остапенко_Кинопрокат\Остапенко_Кинопрокат\bin\Debug\Кинопрокат.mdb
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\bin\Debug\Остапенко_Кинопрокат.exe.config
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.exe
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.pdb
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\bin\Debug\Кинопрокат.mdb
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\bin\Debug\Остапенко_Кинопрокат.exe
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\bin\Debug\Остапенко_Кинопрокат.pdb
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.csprojResolveAssemblyReference.cache
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.Customs.resources
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.Form1.resources
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.GiveFilm.resources
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.Issues.resources
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.Properties.Resources.resources
+C:\Users\142774\Desktop\Остапенко_Кинопрокат\Остапенко_Кинопрокат\obj\Debug\Остапенко_Кинопрокат.csproj.GenerateResource.Cache
